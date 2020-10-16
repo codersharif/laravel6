@@ -23,7 +23,7 @@ class ArticlesController extends Controller
       
        
         
-        return view('articles.index',['articles'=>$articles]);  
+        return view('articles.index',compact('articles'));  
     }
 
     
